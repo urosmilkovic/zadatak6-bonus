@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Slider</title>
+  </head>
+  <body>
+    <div class="sl-container">
+      <div class="sl-background"></div>
+      <div class="sl-content">
+        <div class="sl-upper-content">
+          Simple, traffic-based pricing
+          <span>Sign-up for our 30-day trial. No credit card required.</span>
+          <svg
+            class="sl-upper-circle"
+            xmlns="http://www.w3.org/2000/svg"
+            width="146"
+            height="145"
+          >
+            <g fill="none" fill-rule="evenodd" stroke="#CFD8EF">
+              <circle cx="63" cy="82" r="62.5" />
+              <circle cx="105" cy="41" r="40.5" />
+            </g>
+          </svg>
+        </div>
+        <div class="sl-lower-content">
+          <div class="sl-lower-content-head">
+            <div class="sl-lower-content-pageview">100K PAGEVIEWS</div>
+            <div class="sl-lower-content-money">
+              $16.00 <span>/ month</span>
+            </div>
+          </div>
+          <div class="sl-slider">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="myRange"
+            />
+          </div>
+          <div class="sl-billing">
+            <div class="sl-monthly">Monthly Billing</div>
+            <div class="sl-switch"><div class="switch"></div></div>
+            <div class="sl-yearly">Yearly Billing</div>
+            <div class="sl-discount">25% discount</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--    $ /month Monthly Billing Yearly Billing 25% discount
+    Unlimited websites 100% data ownership Email reports Start my trial -->
+  </body>
+</html>
